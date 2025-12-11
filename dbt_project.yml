@@ -1,4 +1,4 @@
-name: 'CowJacket dbt Cloud Implementation'  # change this to your project name
+name: 'cowJacket_dbt_cloud'  # change this to your project name
 version: '1.0.0'
 config-version: 2
 
@@ -13,7 +13,7 @@ snapshot-paths: ["snapshots"]
 
 
 models:
-  CowJacket dbt Cloud Implementation:
+  cowJacket_dbt_cloud:
     +materialized: view
     dim: 
         +materialized: table

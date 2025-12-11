@@ -1,0 +1,5 @@
+WITH customers AS (
+  SELECT * 
+  FROM LAUNCHPAD.PUBLIC.CUSTOMERS
+)
+SELECT * FROM customers
