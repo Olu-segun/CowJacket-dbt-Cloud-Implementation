@@ -14,7 +14,7 @@ snapshot-paths: ["snapshots"]
 
 models:
   cowJacket_dbt_cloud:
-    +materialized: view
+    +materialized: table
     dim: 
         +materialized: table
     src:
