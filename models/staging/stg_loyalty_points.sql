@@ -1,5 +1,3 @@
-
-
 WITH raw_loyalty_points AS (
     SELECT *
     FROM {{ref("src_loyalty_points")}}
@@ -9,5 +7,5 @@ WITH raw_loyalty_points AS (
     customer_id,
     points_earned,
     transaction_date,
-    LOWER(SOURCE) AS source
+    LOWER(source) AS source
 FROM raw_loyalty_points
