@@ -7,7 +7,7 @@ sources:
     - name: customers
     - name: loyalty_points
     - name: orders
-    - name: orders_item
+    - name: order_items
     - name: products
 
     
