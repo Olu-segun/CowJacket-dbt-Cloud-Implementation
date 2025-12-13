@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: raw
+    schema: public
+    tables:
+    - name: customers
+    - name: loyalty_points
+    - name: orders
+    - name: orders_item
+    - name: products
+
+    
+     
